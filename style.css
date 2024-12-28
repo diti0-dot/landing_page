@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma,sans-serif;
+    color: white;
+    background-color: #1f2937;
+}
+
+a{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    gap: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 30px;
+    gap: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header img{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+.home{
+    color: white;
+    background-color: #1f2937;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.home img{
+    width: 500px;
+    height: 200px;
+    padding: 50px;
+    margin: 50px;
+
+}
+.left{
+    padding: 20px;
+    margin : 20px;
+}
+.home button {
+    background-color:#4083e0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 20px;
+    border: white 1px solid;
+}
+
+
+.secondContainer{
+    background-color: white;
+    color: #1f2937;
+    text-align: center;
+}
+#toAbout img{
+    display: flex;
+   height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: #4083e0 2px solid;
+    flex-direction: row;
+    border-radius: 20px;
+    align-items: center;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thirdContainer{
+    background-color: #e5e7eb;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    padding: 60px;
+    margin: 0;
+    text-align: center;
+}
+.fourthContainer{
+    background-color: white;
+}
+
+.contact{
+    background-color: #3882f6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px;
+    border-radius: 20px;
+
+}
+.contact button{
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 10px;
+    border: white 1px solid;
+}
+
+
+.fifthContainer{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
