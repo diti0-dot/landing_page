@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="intro">Hello, you!</div>
+    <div id="intro" class="intro">
+      <h1>Hello, You!</h1>
+    </div>
 
     <header>
       <div class="navbar">
@@ -18,25 +20,23 @@
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#learning">Learning</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <section id="about" class="section fade-in">
+    <section id="about" class="section">
       <div class="container">
         <h1>About Me</h1>
         <p>
-          Hi, I'm Deepthi Nenavath, a computer science student in Latvia. I enjoy exploring programming languages like C++, Python, and JavaScript because of their practical applications and versatility. I'm currently learning Ruby through The Odin Project to build full-stack applications with Rails. My journey also includes US exchange experiences that shaped my ability to adapt and grow.
-        </p>
-        <p>
-          My learning approach combines hands-on practice, building personal projects, and leveraging structured resources like The Odin Project. I believe in experimenting with code and solving problems to solidify my understanding.
+          Hi, I'm Deepthi Nenavath, a passionate computer science student from Latvia with experience in customer support and 3D modeling. I have a keen interest in web development and programming. Currently, I'm honing my skills in C++, Python, and JavaScript, alongside my coursework in data structures and algorithms.
         </p>
       </div>
     </section>
 
-    <section id="experience" class="section slide-up">
+    <section id="experience" class="section">
       <div class="container">
         <h1>Experience</h1>
         <div class="card">
@@ -60,7 +60,7 @@
       </div>
     </section>
 
-    <section id="projects" class="section fade-in">
+    <section id="projects" class="section">
       <div class="container">
         <h1>Projects</h1>
         <div class="card">
@@ -82,7 +82,37 @@
       </div>
     </section>
 
-    <section id="contact" class="section slide-up">
+    <section id="learning" class="section">
+      <div class="container">
+        <h1>Learning Journey</h1>
+        <div class="card">
+          <h2>Why I Like C++, Python, and JavaScript</h2>
+          <p>
+            I enjoy C++ for its efficiency and control over system resources, Python for its simplicity and vast library ecosystem, and JavaScript for enabling interactive web experiences. Each language complements my growth as a developer.
+          </p>
+        </div>
+        <div class="card">
+          <h2>Why I'm Learning Ruby</h2>
+          <p>
+            I chose to learn Ruby because of its elegant syntax and its powerful framework, Ruby on Rails. This aligns with my passion for web development and my desire to create robust and scalable applications.
+          </p>
+        </div>
+        <div class="card">
+          <h2>Learning Methods</h2>
+          <p>
+            My primary learning resource is The Odin Project, which provides a structured approach to mastering web development. I also reinforce my knowledge by building projects and solving real-world problems.
+          </p>
+        </div>
+        <div class="card">
+          <h2>US Exchange Program</h2>
+          <p>
+            My exchange program experience in the USA was transformative. It enhanced my communication skills, broadened my cultural understanding, and instilled confidence in navigating diverse environments.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
       <div class="container">
         <h1>Contact</h1>
         <p>If you'd like to connect, feel free to reach out via email or LinkedIn!</p>
@@ -95,5 +125,19 @@
         <p>&copy; 2025 Deepthi Nenavath. All Rights Reserved.</p>
       </div>
     </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const intro = document.getElementById("intro");
+        setTimeout(() => {
+          intro.style.transform = "scale(0.5)";
+          intro.style.transition = "transform 2s ease, opacity 2s ease";
+          intro.style.opacity = "0";
+          setTimeout(() => {
+            intro.style.display = "none";
+          }, 2000);
+        }, 5000);
+      });
+    </script>
   </body>
 </html>
