@@ -8,9 +8,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="intro" class="intro">
-      <h1>Hello, You!</h1>
-    </div>
+  
 
     <header>
       <div class="navbar">
@@ -125,19 +123,5 @@
         <p>&copy; 2025 Deepthi Nenavath. All Rights Reserved.</p>
       </div>
     </footer>
-
-    <script>
-     document.addEventListener("DOMContentLoaded", () => {
-  const intro = document.getElementById("intro");
-  setTimeout(() => {
-    intro.style.transform = "scale(0.8)";
-    intro.style.transition = "transform 5s ease, opacity 5s ease";
-    intro.style.opacity = "0";
-    setTimeout(() => {
-      intro.style.display = "none";
-    }, 500); 
-  }, 5000); 
-});
-    </script>
   </body>
 </html>
